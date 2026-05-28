@@ -16,7 +16,7 @@ gitdb==4.0.12
 GitPython==3.1.50
 google==3.0.0
 google-ai-generativelanguage==0.6.15
-google-api-core==2.30.3
+google-api-core[grpc]>=2.30.0
 google-api-python-client==2.196.0
 google-auth==2.53.0
 google-auth-httplib2==0.4.0
@@ -24,7 +24,7 @@ google-genai==2.6.0
 google-generativeai==0.8.6
 googleapis-common-protos==1.75.0
 grpcio==1.71.2
-grpcio-status==1.71.2
+grpcio-status>=1.62.0,<1.71.3
 h11==0.16.0
 httpcore==1.0.9
 httplib2==0.31.2
